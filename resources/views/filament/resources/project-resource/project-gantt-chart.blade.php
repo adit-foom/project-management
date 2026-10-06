@@ -64,7 +64,7 @@
     </div>
 
     @push('styles')
-        <link rel="stylesheet" href="https://cdn.dhtmlx.com/gantt/edge/dhtmlxgantt.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.dhtmlx.com/gantt/9.0/dhtmlxgantt.css" type="text/css">
         <style>
             .gantt_task_line.overdue {
                 background-color: #ef4444 !important;
@@ -77,7 +77,7 @@
     @endpush
 
     @push('scripts')
-        <script src="https://cdn.dhtmlx.com/gantt/edge/dhtmlxgantt.js"></script>
+        <script src="https://cdn.dhtmlx.com/gantt/9.0/dhtmlxgantt.js"></script>
         <script>
             let ganttPageInitialized = false;
             let ganttData = @json($ganttData ?? ['data' => [], 'links' => []]);
